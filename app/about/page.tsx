@@ -2,7 +2,7 @@ export default function About() {
   return (
     <section className="flex-1 flex flex-col">  
       <div className="max-w-2xl mx-auto px-6 py-24 w-full">
-        <h1 className="text-4xl font-bold mb-8">About</h1>
+        <h1 className="text-4xl font-bold mb-8 transition-all duration-300 ease-out">About</h1>
 
         <div className="prose prose-sm max-w-none">
           <p>

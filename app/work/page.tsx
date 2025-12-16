@@ -28,8 +28,8 @@ export default function Work() {
 
   return (
     <section className="flex-1 flex flex-col">
-      <div className="max-w-4xl mx-auto px-6 py-24 w-full">
-        <h1 className="text-4xl font-bold mb-12">Projects</h1>
+      <div className="max-w-2xl mx-auto px-6 py-24 w-full">
+        <h1 className="text-4xl font-bold mb-12 transition-all duration-300 ease-out">Projects</h1>
 
         <div className="space-y-12">
           {projects.map((project, idx) => (

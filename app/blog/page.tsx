@@ -28,7 +28,7 @@ export default function Blog() {
   return (
     <section className="flex-1 flex flex-col">
       <div className="max-w-2xl mx-auto px-6 py-24 w-full">
-        <h1 className="text-4xl font-bold mb-12">Writing</h1>
+        <h1 className="text-4xl font-bold mb-12 transition-all duration-300 ease-out">Writing</h1>
 
         <div className="space-y-8">
           {posts.map((post) => (

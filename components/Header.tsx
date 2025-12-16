@@ -9,8 +9,8 @@ export default function Header() {
   return (
     <header className="sticky top-0 z-50 bg-white border-b border-gray-100">
       <nav className="max-w-4xl mx-auto px-6 py-4 flex items-center justify-between">
-        <Link href="/" className="font-semibold text-gray-900 hover:text-blue-600 transition">
-          Ayush
+        <Link href="/" className="text-2xl font-semibold text-gray-600 hover:underline transition serif-display">
+          Ayush Ranjan Roy
         </Link>
 
         {/* Desktop menu */}
