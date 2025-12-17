@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <section className="flex-1 flex items-center justify-center">
       <div className="max-w-2xl px-6 py-24 text-center">
-        <h1 className="text-5xl font-bold mb-4">Ayush Ranjan Roy</h1>
+        <h1 className="text-7xl font-bold mb-4 hover:underline transition-all duration-300 cursor-pointer">Ayush Ranjan Roy</h1>
         <p className="text-xl text-gray-600 mb-2">AI Engineer</p>
         <p className="text-lg text-gray-600 mb-8">Building intelligent automation systems</p>
         
@@ -17,14 +17,14 @@ export default function Home() {
         </p>
 
         <div className="flex gap-3 justify-center mb-12">
-          <Link href="/work" className="px-5 py-2 border border-gray-300 rounded text-sm hover:border-gray-900 transition">
-            View Work
+          <Link href="/project" className="px-5 py-2 border border-gray-300 rounded text-sm hover:border-gray-900 transition">
+            View projects
           </Link>
           <Link href="/blog" className="px-5 py-2 border border-gray-300 rounded text-sm hover:border-gray-900 transition">
-            Read Blog
+            Read Blogs
           </Link>
           <Link href="/about" className="px-5 py-2 border border-gray-300 rounded text-sm hover:border-gray-900 transition">
-            About
+            About Me
           </Link>
         </div>
 
