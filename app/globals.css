@@ -15,8 +15,11 @@ html {
 }
 
 body {
-  background-color: #ffffff;
+  background-color: #fafafa;
   color: #1a1a1a;
+  font-size: 15px;
+  line-height: 1.6;
+  letter-spacing: 0.3px;
 }
 
 .serif-display {

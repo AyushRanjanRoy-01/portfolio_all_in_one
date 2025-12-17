@@ -7,21 +7,21 @@ export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   return (
-    <header className="sticky top-0 z-50 bg-white border-b border-gray-100">
-      <nav className="max-w-4xl mx-auto px-6 py-4 flex items-center justify-between">
-        <Link href="/" className="text-2xl font-semibold text-gray-600 hover:underline transition serif-display">
+    <header className="sticky top-0 z-50 bg-fafafa border-b border-gray-200">
+      <nav className="max-w-4xl mx-auto px-6 py-5 flex items-center justify-between">
+        <Link href="/" className="text-3xl font-normal text-gray-900 hover:underline transition serif-display">
           Ayush Ranjan Roy
         </Link>
 
         {/* Desktop menu */}
         <div className="hidden md:flex gap-8">
-          <Link href="/work" className="text-gray-600 hover:text-gray-900 transition">
-            Work
+          <Link href="/work" className="text-sm text-gray-600 hover:text-gray-900 transition tracking-wide">
+            Projects
           </Link>
-          <Link href="/blog" className="text-gray-600 hover:text-gray-900 transition">
-            Writing
+          <Link href="/blog" className="text-sm text-gray-600 hover:text-gray-900 transition tracking-wide">
+            Blogs
           </Link>
-          <Link href="/about" className="text-gray-600 hover:text-gray-900 transition">
+          <Link href="/about" className="text-sm text-gray-600 hover:text-gray-900 transition tracking-wide">
             About
           </Link>
         </div>
@@ -41,10 +41,10 @@ export default function Header() {
           <div className="absolute top-full left-0 right-0 bg-white border-b border-gray-100 md:hidden">
             <div className="flex flex-col gap-4 px-6 py-4">
               <Link href="/work" className="text-gray-600 hover:text-gray-900">
-                Work
+                Projects
               </Link>
               <Link href="/blog" className="text-gray-600 hover:text-gray-900">
-                Writing
+                Blogs
               </Link>
               <Link href="/about" className="text-gray-600 hover:text-gray-900">
                 About
