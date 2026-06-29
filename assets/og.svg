@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0A0A0F"/>
+      <stop offset="1" stop-color="#12121A"/>
+    </linearGradient>
+    <linearGradient id="grad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#00D4AA"/>
+      <stop offset="1" stop-color="#7B61FF"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <circle cx="120" cy="110" r="320" fill="#00D4AA" opacity="0.10"/>
+  <circle cx="1080" cy="540" r="340" fill="#7B61FF" opacity="0.10"/>
+  <text x="80" y="280" font-family="Arial, sans-serif" font-size="84" font-weight="700" fill="url(#grad)">Ayush Ranjan Roy</text>
+  <text x="84" y="350" font-family="Arial, sans-serif" font-size="38" font-weight="400" fill="#A8A8B4">AI Engineer · Multi-Agent Systems · RAG · Document Intelligence</text>
+  <text x="84" y="430" font-family="monospace" font-size="26" fill="#00D4AA">Python · FastAPI · LangGraph · Azure AI</text>
+</svg>
